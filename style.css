@@ -15,7 +15,7 @@ body {
 
 .header_navigation {
   background: #f1f0f1;
-  z-index: 1;
+  z-index: 9999;
 }
 
 header {
@@ -376,7 +376,6 @@ header {
 /* END PRODUCT LIST CARD */
 
 footer {
-  margin-top: 30px;
   background-color: black;
   padding: 40px 0 20px 0;
   color: white;
@@ -424,3 +423,471 @@ footer h4 {
 .contact_link a:hover {
   color: var(--primary-color);
 }
+
+/* DONE FOOTER */
+
+.login_content {
+  background: white;
+  display: flex;
+  align-items: center;
+  height: 400px;
+}
+
+#login_form {
+  width: 300px;
+  text-align: center;
+}
+
+#login_form .login_form-title {
+  padding: 14px;
+}
+.login_email span,
+.login_password span,
+.login_surName span,
+.login_firstName span,
+.login_phone span {
+  padding: 6px 12px;
+  font-size: 14px;
+  font-weight: normal;
+  line-height: 1;
+  color: #555;
+  text-align: center;
+  background-color: #eee;
+  border: 1px solid #ccc;
+  border-top-left-radius: 4px;
+  border-bottom-left-radius: 4px;
+}
+
+.login_email,
+.login_password,
+.login_surName,
+.login_firstName,
+.login_phone {
+  margin-bottom: 18px;
+  display: flex;
+}
+
+.login_email input,
+.login_password input,
+.login_surName input,
+.login_firstName input,
+.login_phone input {
+  width: 100%;
+
+  padding: 6px 12px;
+  font-size: 14px;
+
+  color: #555;
+  background-color: #fff;
+  border-top-right-radius: 4px;
+  border-bottom-right-radius: 4px;
+  outline: none;
+  border: 1px solid #ccc;
+  border-left: unset;
+}
+
+.login_email input:focus,
+.login_password input:focus,
+.login_surName input:focus,
+.login_firstName input:focus,
+.login_phone input:focus {
+  border-color: #66afe9;
+  outline: 0;
+  -webkit-box-shadow: inset 0 1px 1px rgb(0 0 0 / 8%),
+    0 0 8px rgb(102 175 233 / 60%);
+  box-shadow: inset 0 1px 1px rgb(0 0 0 / 8%), 0 0 8px rgb(102 175 233 / 60%);
+}
+
+#login_btn {
+  border: none;
+  outline: none;
+  padding: 6px 10px;
+  border-radius: 4px;
+  background: var(--primary-color);
+  color: white;
+  margin-bottom: 8px;
+}
+
+#login_btn:focus {
+  border-color: white;
+  outline: 0;
+  -webkit-box-shadow: inset 0 1px 1px rgb(0 0 0 / 8%),
+    0 0 8px rgba(213, 16, 16, 0.6);
+  box-shadow: inset 0 1px 1px rgb(0 0 0 / 8%), 0 0 8px rgba(198, 12, 15, 0.6);
+}
+
+#action_forget_signin a {
+  text-decoration: none;
+  color: #196cb0;
+}
+
+#action_forget_signin a:hover {
+  color: var(--primary-color);
+}
+
+/* END LOGIN PAGE */
+.back_btn {
+  text-decoration: none;
+  background: #cccccc;
+  padding: 8px 10px;
+  border-radius: 4px;
+  color: white;
+}
+
+.back_btn:hover {
+  color: black;
+}
+/* END SIGN UP PAGE */
+
+.product__list-heading span {
+  float: right;
+  position: absolute;
+  top: 8px;
+  right: 0px;
+  text-decoration: none;
+  color: white;
+  display: flex;
+  margin-right: 6px;
+}
+
+.product__list-heading select {
+  margin-left: 6px;
+}
+
+/* END PRODUCT PAGE */
+#payment_header {
+  height: 65px;
+  background: #ffffff;
+}
+.header_container {
+  height: 100%;
+}
+
+.header_container .row {
+  height: 100%;
+}
+
+.icon__shop {
+  position: relative;
+}
+
+#IMAGE4 {
+  width: 47.5236px;
+  height: 43px;
+  top: 11px;
+  left: 0px;
+}
+
+.ladi-element {
+  position: absolute;
+}
+
+.ladi-image {
+  position: absolute;
+  width: 100%;
+  height: 100%;
+  overflow: hidden;
+  pointer-events: none;
+}
+
+.ladi-image-background {
+  width: 156.959px;
+  height: 43px;
+  top: 0px;
+  left: 0px;
+  background-image: url(https://w.ladicdn.com/5bf3dc7edc60303c34e4991f/logo-02-20200903083638.svg);
+}
+.ladi-image .ladi-image-background {
+  background-repeat: no-repeat;
+  background-position: left top;
+  background-size: cover;
+  background-attachment: scroll;
+  background-origin: content-box;
+  position: absolute;
+  margin: 0 auto;
+  width: 100%;
+  height: 100%;
+  pointer-events: none;
+}
+.link_payment .col {
+  display: flex;
+  align-items: center;
+}
+
+.link_payment a {
+  text-decoration: none;
+  color: #385376;
+  font-weight: 650;
+}
+/* HEADER PAYMENT */
+.payment_banner_background {
+  background-image: url("https://w.ladicdn.com/s1440x565/5bf3dc7edc60303c34e4991f/thanh-toan-01-20210809022224.jpg");
+  height: 566px;
+  background-size: cover;
+  background-attachment: scroll;
+  background-origin: content-box;
+  background-position: center top;
+  background-repeat: no-repeat;
+}
+
+.payment_banner_background .container {
+  position: relative;
+}
+
+.payment_banner_character {
+  position: absolute;
+  width: 700px;
+  height: 500px;
+  left: 446px;
+  top: 28px;
+}
+
+.payment_banner_title1 {
+  position: absolute;
+  width: 510.956px;
+  height: 119px;
+  top: 109px;
+  left: 60px;
+}
+.payment_banner_title1 img {
+  width: 100%;
+  height: 100%;
+}
+
+.payment_banner_detail {
+  position: absolute;
+  width: 510px;
+  height: 118px;
+  top: 240px;
+  left: 66px;
+}
+
+.payment_banner_detail p {
+  color: white;
+  font-size: 18px;
+}
+.payment_banner_button {
+  position: absolute;
+  width: 244px;
+  height: 68px;
+  top: 300px;
+  left: 66px;
+}
+
+.payment_banner_button img {
+  width: 100%;
+  height: 100%;
+  transition: 0.4s;
+}
+
+.payment_banner_button:hover img {
+  scale: 120%;
+}
+
+.payment_banner_character img {
+  width: 100%;
+  height: 100%;
+  object-fit: contain;
+}
+
+/* END PAYMENT BANNER */
+.payment_list {
+  background: white;
+  padding-bottom: 60px;
+}
+.payment_list .container {
+  padding: 80px 0 80px 0;
+}
+
+.payment_list .background_payment {
+  background-color: rgb(237, 246, 255);
+  border-radius: 16px;
+  height: 400px;
+  position: relative;
+}
+
+.payment_list .background_payment .payment-1 {
+  position: absolute;
+  width: 386px;
+  height: 266px;
+  top: -60px;
+  left: 30px;
+}
+
+.payment_list .background_payment .payment-1 img {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+}
+
+.payment_list .background_payment .payment-2 {
+  position: absolute;
+  width: 386px;
+  height: 266px;
+  top: -60px;
+  left: 470px;
+}
+
+.payment_list .background_payment .payment-2 img {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+}
+.payment_list .background_payment .payment-3 {
+  position: absolute;
+  width: 386px;
+  height: 266px;
+  top: -60px;
+  right: 30px;
+}
+
+.payment_list .background_payment .payment-3 img {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+}
+.payment_list .background_payment .payment-4 {
+  position: absolute;
+  width: 386px;
+  height: 266px;
+  bottom: -120px;
+  left: 200px;
+}
+
+.payment_list .background_payment .payment-4 img {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+}
+.payment_list .background_payment .payment-5 {
+  position: absolute;
+  width: 386px;
+  height: 266px;
+  bottom: -120px;
+  right: 200px;
+}
+
+.payment_list .background_payment .payment-5 img {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+}
+
+.payment-hover {
+  cursor: pointer;
+}
+
+.payment-hover img {
+  transition: 0.4s;
+}
+
+.payment-hover:hover img {
+  scale: 120%;
+}
+/* END PAYMENT LIST */
+.payment_direct {
+  background: #edf6ff;
+  padding: 28px 0 28px 0;
+}
+
+.payment_direct .title_fixed .col h4 {
+  color: #0182ff;
+}
+
+.payment_direct .title_fixed .col h1 {
+  color: #2d4379;
+  font-weight: 700;
+}
+
+.explain_paydirect {
+  display: flex;
+  align-items: end;
+  color: #3f73b7;
+  font-weight: 600;
+}
+
+.showroom_location {
+  margin-top: 46px;
+}
+
+.showroom_location h5 {
+  color: #2d4379;
+  font-weight: 700;
+}
+
+.showroom_location p {
+  color: #475867;
+  font-weight: 600;
+}
+
+/* END PAYMENT DIRECT */
+.payment_momo {
+  background: white;
+  padding: 50px 0 50px 0;
+}
+.payment_momo_title {
+  display: flex;
+  margin-bottom: 30px;
+}
+
+.momo_img img {
+  width: 100%;
+  height: 100%;
+  object-fit: contain;
+}
+
+.momo_icon img {
+  width: 100%;
+  height: 100%;
+  object-fit: contain;
+}
+
+.payment_momo_title .col-10 h4,
+.payment_momo_title .col-10 h1 {
+  margin: 0;
+}
+
+.payment_momo_title .col-10 h4 {
+  color: #0282ff;
+}
+.payment_momo_title .col-10 h1 {
+  color: #2d4379;
+}
+
+.payment_momo_step h5 {
+  color: #c8297f;
+  font-weight: 700;
+}
+
+.payment_momo_step p {
+  color: #425362;
+  font-weight: 500;
+  font-size: 17px;
+}
+
+.payment_momo_step .result {
+  margin-top: 6px;
+  color: #143582;
+  font-weight: 500;
+  font-size: 18px;
+}
+
+.line_break {
+  width: 186.666px;
+  height: 5px;
+  background-color: rgb(45, 67, 121);
+  margin-top: 60px;
+}
+/* END PAYMENT MOMO */
+.payment_contact {
+  background: #0183ff;
+  color: white;
+  text-align: center;
+  padding: 40px;
+}
+
+.payment_contact span {
+  margin: 0 30px 0 30px;
+}
+/* END PAYMENT CONTACT */
+/* END GUIDE PAYMENT PAGE */
