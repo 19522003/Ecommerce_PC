@@ -1296,3 +1296,189 @@ footer h4 {
 }
 /* END MPOS SECTION */
 /* END INSTALLMENT PAGE */
+
+.delivery_header {
+  background: #222222;
+  color: white;
+}
+
+.delivery_header_logo-icon {
+  background: #e5203f;
+}
+
+.delivery_header_logo-icon .row {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin: 4px;
+}
+
+.delivery_logo {
+  width: 60%;
+  height: 60%;
+}
+
+.delivery_logo img {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+}
+
+.delivery_hotline p,
+.delivery_hotline h4 {
+  margin: 0;
+  font-weight: bold;
+}
+
+.delivery_hotline p {
+  font-size: 14px;
+}
+
+.delivery_header_nav {
+  display: flex;
+  height: 100%;
+  margin: 0;
+}
+.delivery_header_nav li {
+  list-style: none;
+  display: flex;
+  align-items: center;
+}
+
+.delivery_header_nav li a {
+  text-decoration: none;
+  color: white;
+  font-size: 16px;
+  font-weight: 600;
+  transition: 0.4s;
+}
+
+.delivery_header_nav li a:hover {
+  scale: 110%;
+}
+
+.reset_padding {
+  padding: 0px;
+}
+/* END DELIVERY HEADER */
+.delivery_banner {
+  width: 100%;
+}
+.delivery_banner img {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+}
+/* END BANNER DELIVERY */
+.delivery_location {
+  position: relative;
+  padding: 30px 0;
+}
+.delivery_location::before {
+  content: "";
+  background: url(https://w.ladicdn.com/s700x1100/5bf3dc7edc60303c34e4991f/chinh-sach-giao-hang-20210128085147.jpg);
+  background-size: cover;
+  position: absolute;
+  top: 0px;
+  right: 0px;
+  bottom: 0px;
+  left: 0px;
+  opacity: 0.05;
+}
+.delivery_location_title h1 {
+  color: #e5203e;
+}
+
+.delivery_location_title h2 {
+  font-weight: 400;
+}
+.delivery_location_city {
+  margin-top: 40px;
+}
+.location_city {
+  border: 2px solid #e5203e;
+  margin: 0 10px;
+  padding: 2px 4px;
+}
+
+.location_city h5 {
+  text-align: center;
+  color: white;
+  background: #e5203e;
+  padding: 16px;
+  font-size: 24px;
+  font-weight: bold;
+}
+.location_city p {
+  font-weight: 400;
+}
+
+.dash_line {
+  margin-top: 50px;
+  border-bottom: 2px dashed #e5203e;
+  width: 360px;
+}
+/* END DELIVER LOCATION*/
+
+/* END DELIVERY URBAN  */
+.delivery_urban {
+  position: relative;
+  padding: 30px 0;
+}
+
+.delivery_urban::before {
+  content: "";
+  background: url(https://w.ladicdn.com/s700x1100/5bf3dc7edc60303c34e4991f/chinh-sach-giao-hang-20210128085147.jpg);
+  background-size: cover;
+  position: absolute;
+  top: 0px;
+  right: 0px;
+  bottom: 0px;
+  left: 0px;
+  opacity: 0.05;
+}
+
+.delivery_urban_title {
+  width: 46%;
+  margin-bottom: 50px;
+}
+
+.delivery_urban_title img {
+  width: 100%;
+  height: 100%;
+  object-fit: contain;
+}
+
+.delivery_urban_image {
+  position: relative;
+  height: 280px;
+  max-height: 300px;
+}
+
+.delivery_urban_image::before {
+  content: "";
+  background: url(https://w.ladicdn.com/s1300x650/5bf3dc7edc60303c34e4991f/chinh-sach-giao-hang-18-20210129040901.png);
+  background-size: cover;
+  position: absolute;
+  top: 0px;
+  right: 0px;
+  bottom: 0px;
+  left: 0px;
+  padding: 40px 10px;
+}
+
+.delivery_urban_image img {
+  position: absolute;
+  left: 0;
+  object-fit: contain;
+  transition: 0.6s;
+}
+.delivery_urban_image:hover img {
+  left: 480px;
+  overflow: hidden;
+}
+.img_shipping img {
+  margin: 10px;
+}
+/* END DELIVERY SUBURBAN  */
+/* END DELIVERY PAGE */

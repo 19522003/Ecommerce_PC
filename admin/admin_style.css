@@ -347,5 +347,7 @@
 .add_product_part button:hover {
   background: rgb(44, 225, 80);
 }
-
+.reset_padding {
+  padding: 8px !important;
+}
 /* END ADD PRODUCT */
