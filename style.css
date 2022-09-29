@@ -1482,3 +1482,134 @@ footer h4 {
 }
 /* END DELIVERY SUBURBAN  */
 /* END DELIVERY PAGE */
+.cart_section {
+  background: white;
+  padding: 30px 0;
+}
+.cart_section p {
+  margin: 0px;
+}
+.cart_section h3 {
+  text-align: center;
+}
+
+.cart_section table {
+  width: 100%;
+}
+
+.cart_section table tr td,
+.cart_section table tr th {
+  border: 1px solid #f0f0f0;
+  padding: 18px;
+}
+
+.cart_section table input {
+  width: 65px;
+  text-align: center;
+  outline: unset;
+}
+.cart_section table a {
+  text-decoration: none;
+}
+
+.cart_section table .product_name {
+  font-size: 16px;
+  font-weight: bold;
+}
+
+.cart_section table .product_name:hover {
+  color: #ea1c00;
+}
+
+.cart_section table .delete_btn {
+  color: black;
+  font-size: 20px;
+}
+
+.cart_section table .delete_btn:hover {
+  color: red;
+}
+.cart_section .total_price {
+  font-weight: bold;
+  font-size: 18px;
+}
+
+.cart_section .item_img {
+  width: 100%;
+  height: 100%;
+}
+
+.cart_section .item_img img {
+  width: 100%;
+  height: 100%;
+  object-fit: contain;
+}
+
+#cart_submit_btn {
+  margin-top: 30px;
+  display: flex;
+}
+#cart_submit_btn a {
+  border: none;
+  padding: 10px 50px;
+  border-radius: 8px;
+  background: #ed2f2c;
+  color: white;
+  transition: 0.2s;
+  text-decoration: none;
+}
+
+#cart_submit_btn a:hover {
+  background: rgb(197, 10, 6);
+}
+/* END CART PAGE */
+
+.checkout_section {
+  background: url(https://yt3.ggpht.com/ytc/AMLnZu8v9duJyRvU2yqidM2-zyJ6SozxBMoXHEehTp8=s900-c-k-c0x00ffffff-no-rj);
+}
+.form_checkout {
+  width: 80%;
+  border: 1px solid #cccccc;
+
+  height: 100vh;
+  padding: 20px;
+  background: white;
+}
+
+.form_checkout h2 a {
+  color: red;
+  font-weight: bold;
+  text-decoration: none;
+}
+
+.checkout_btn {
+  display: flex;
+  justify-content: flex-end;
+}
+
+.checkout_btn a {
+  text-decoration: none;
+  margin: 0;
+  font-size: 16px;
+  margin-top: 10px;
+  font-weight: 500;
+  color: red;
+}
+
+.checkout_btn a:hover {
+  color: rgb(17, 110, 176);
+}
+.checkout_btn button {
+  border: unset;
+  padding: 10px 30px;
+  background: #ed2f2c;
+  border-radius: 4px;
+  color: white;
+  transition: 0.2s;
+  margin-left: 10px;
+}
+
+.checkout_btn button:hover {
+  background: #cf1330;
+}
+/* END CHECKOUT PAGE */
