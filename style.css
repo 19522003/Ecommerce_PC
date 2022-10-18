@@ -10,7 +10,7 @@
 
 body {
   height: 100vh;
-  background: #f1f0f1;
+  background: white;
 }
 
 .header_navigation {
@@ -1613,3 +1613,35 @@ footer h4 {
   background: #cf1330;
 }
 /* END CHECKOUT PAGE */
+
+.pagination {
+  display: flex;
+  align-items: center;
+}
+
+.pagination_list {
+  list-style: none;
+  display: flex;
+  justify-content: center;
+  margin-top: 30px;
+}
+
+.pagination_list li {
+  border: 1px solid #cccccc;
+  padding: 6px 12px;
+  margin: 0 6px;
+  border-radius: 2px;
+}
+
+.pagination_list li:hover {
+  background: #f8e36e;
+  color: black;
+  cursor: pointer;
+}
+
+.pagination_list li a {
+  text-decoration: none;
+  font-weight: 400;
+}
+
+/* END PAGINATION */
