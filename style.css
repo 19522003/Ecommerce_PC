@@ -1674,7 +1674,7 @@ footer h4 {
   display: none;
 }
 
-@media screen and (max-width: 768px) {
+@media screen and (max-width: 600px) {
   .header_responsive {
     display: block;
     background: #f1f0f1;
@@ -1686,6 +1686,12 @@ footer h4 {
   }
 
   .header_navigation {
+    display: none;
+  }
+}
+
+@media screen and (max-width: 790px) {
+  .action__contact {
     display: none;
   }
 }
