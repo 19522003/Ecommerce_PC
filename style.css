@@ -916,10 +916,33 @@ footer h4 {
 }
 
 .image_product_big {
-  width: 100%;
-  height: 100%;
+  width: 400px;
+  height: 400px;
 }
 .image_product_big img {
+  width: 100%;
+  height: 100%;
+  object-fit: contain;
+}
+
+.multiple-items {
+  height: 100px;
+  display: flex;
+  width: 100%;
+}
+
+.multiple-items .image-item {
+  width: 100%;
+  height: 100%;
+  margin: 0 4px;
+  transition: 0.1s;
+}
+
+.image-item.active {
+  border: 2px solid #2d9cdb;
+}
+
+.multiple-items .image-item img {
   width: 100%;
   height: 100%;
   object-fit: contain;
@@ -1002,7 +1025,7 @@ footer h4 {
 
 .product_detail_info {
   border: 1px solid #e1e1e1;
-  width: 500px;
+  width: 80%;
   border-radius: 10px;
 }
 
@@ -1048,6 +1071,7 @@ footer h4 {
   height: 100%;
   object-fit: contain;
 }
+
 /* END PRODUCT DETAIL PAGE */
 
 .installment_header {
@@ -1645,3 +1669,23 @@ footer h4 {
 }
 
 /* END PAGINATION */
+
+.header_responsive {
+  display: none;
+}
+
+@media screen and (max-width: 768px) {
+  .header_responsive {
+    display: block;
+    background: #f1f0f1;
+    padding: 20px;
+  }
+
+  .header_responsive a {
+    display: inline;
+  }
+
+  .header_navigation {
+    display: none;
+  }
+}
