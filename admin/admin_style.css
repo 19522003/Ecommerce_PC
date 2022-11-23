@@ -628,3 +628,63 @@ select:focus {
   }
 }
 /* END SETTING SECTION */
+.statistic_section {
+  max-width: 1300px;
+  margin: 20px auto;
+  background: white;
+  padding: 20px 40px;
+  border: 1px solid #ddd;
+  border-radius: 15px;
+}
+
+.total_revenue_section {
+  box-shadow: 0 7px 25px rgba(0, 0, 0, 0.08);
+  padding: 20px 40px;
+  border-radius: 15px;
+  height: 100%;
+}
+
+.total_revenue_section h4 {
+  color: gray;
+}
+
+.value_info {
+  padding: 40px 0;
+}
+
+.value_info .value {
+  font-size: 30px;
+  border-radius: 50%;
+  border: 4px solid #0779e4;
+  width: 100px;
+  height: 100px;
+  display: inline-block;
+}
+.value_info .value span {
+  line-height: 100px;
+  text-align: center;
+  color: #0779e4;
+}
+
+.value_statement {
+  font-size: 18px;
+}
+
+.value_money {
+  font-size: 40px;
+  font-weight: bold;
+}
+
+.value_description {
+  color: gray;
+}
+
+.target_info {
+  color: #0779e4 !important;
+  font-weight: bold;
+}
+
+#statisChart {
+  margin: auto;
+}
+/* END STATISTIC SECTION */
