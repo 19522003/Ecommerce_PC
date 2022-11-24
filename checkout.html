@@ -97,6 +97,17 @@
                   </select>
                 </div>
               </div>
+              <div class="row mt-2 d-none">
+                <div class="col">
+                  <input type="text" id="fakeCity" placeholder="city" />
+                </div>
+                <div class="col">
+                  <input type="text" id="fakeDistrict" placeholder="district" />
+                </div>
+                <div class="col">
+                  <input type="text" id="fakeWard" placeholder="ward" />
+                </div>
+              </div>
               <div class="row mt-2">
                 <div class="col">
                   <select class="form-control form-select">
@@ -187,12 +198,14 @@
       </div>
     </div>
   </body>
-  <script src="script.js"></script>
   <script src="https://cdnjs.cloudflare.com/ajax/libs/axios/0.21.1/axios.min.js"></script>
   <script>
     var citis = document.getElementById("city");
     var districts = document.getElementById("district");
     var wards = document.getElementById("ward");
+    const fakeCity = document.getElementById("fakeCity");
+    const fakeDistrict = document.getElementById("fakeDistrict");
+    const fakeWard = document.getElementById("fakeWard");
     var Parameter = {
       url: "https://raw.githubusercontent.com/kenzouno1/DiaGioiHanhChinhVN/master/data.json",
       method: "GET",
@@ -220,6 +233,10 @@
             );
           }
         }
+        const selcity = citis.options[citis.selectedIndex].text;
+        fakeCity.value = selcity;
+        fakeDistrict.value = "";
+        fakeWard.value = "";
       };
       district.onchange = function () {
         ward.length = 1;
@@ -233,6 +250,15 @@
             wards.options[wards.options.length] = new Option(w.Name, w.Id);
           }
         }
+        const selDistrict = districts.options[districts.selectedIndex].text;
+
+        fakeDistrict.value = selDistrict;
+        fakeWard.value = "";
+      };
+      wards.onchange = function () {
+        const selWard = wards.options[wards.selectedIndex].text;
+
+        fakeWard.value = selWard;
       };
     }
   </script>
